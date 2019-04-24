@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/youfanshop.iml" filepath="$PROJECT_DIR$/youfanshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youfanshopuser/youfanshopuser.iml" filepath="$PROJECT_DIR$/youfanshopuser/youfanshopuser.iml" />
+    </modules>
+  </component>
+</project>
