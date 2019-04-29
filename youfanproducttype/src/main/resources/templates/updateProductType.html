@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<form action="updateProductTypebyId" method="post">
+    <!--
+        th:value    属性赋值
+        th:text    文本替换    　
+    -->
+    <input type="hidden" name="id" th:value="${productType.id}"/>
+    产品类别名称：<input name="productTypeName" th:value="${productType.productTypeName}"/><br/>
+    产品类别描述：<input name="productTypeDescription" th:value="${productType.productTypeDescription}"/><br/>
+    等级：<input name="level" th:value="${productType.level}"/><br/>
+    父类：<input name="parentId" th:value="${productType.parentId}"/><br/>
+    <input type="submit" value="提交"/><br/>
+</form>
+</body>
+</html>
